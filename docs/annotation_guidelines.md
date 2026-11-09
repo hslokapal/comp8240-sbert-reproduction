@@ -42,7 +42,7 @@ some important information differs; 2 not equivalent but share some details; 1 n
 but on the same topic; 0 completely dissimilar.
 Judge meaning, not shared words. Two questions that mention the same tool but ask for different
 things are not equivalent.
-Output ONLY a CSV with the header pair_id,score and one row per pair. No other text.
+Output ONLY a CSV with the header pair_id,score and one row per pair (40 rows). No other text.
 
 Pairs (pair_id | sentence1 | sentence2):
 <paste the pair_id, sentence1 and sentence2 columns of pairs_for_annotation.csv>
