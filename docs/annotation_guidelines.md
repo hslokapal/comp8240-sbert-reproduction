@@ -53,3 +53,6 @@ Save the reply as `data/llm_judge.csv`.
 Optional second step (for the discussion section): after running step 2 of the pipeline, take the
 pair_ids with the largest model-vs-human gaps and ask the LLM, in the same chat, "In one sentence each,
 explain why you scored these pairs as you did." Quote at most one or two of these explanations.
+
+
+**Note added after scoring:** the second annotator was asked after scoring and agreed that their 40 scores, labelled only as "annotator 2" and with no personal details, could be published in the report appendix and in this repository (`data/annotator2.csv`).
