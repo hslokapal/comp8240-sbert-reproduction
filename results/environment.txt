@@ -1,0 +1,12 @@
+python 3.10.22
+platform macOS-26.5.2-arm64-arm-64bit
+machine arm64
+sentence-transformers 6.1.0
+transformers 5.19.0
+torch 2.14.1
+numpy 2.2.6
+scipy 1.15.3
+scikit-learn 1.7.2
+datasets 5.1.0
+pandas 2.3.3
+matplotlib 3.10.9

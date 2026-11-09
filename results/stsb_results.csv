@@ -1,0 +1,4 @@
+model,hf_id,paper_spearman_x100,ours_spearman_x100,difference
+SBERT-NLI-base (paper checkpoint),sentence-transformers/bert-base-nli-mean-tokens,77.03,76.98,-0.05
+SBERT-NLI-STSb-base (paper checkpoint),sentence-transformers/bert-base-nli-stsb-mean-tokens,85.35,85.05,-0.3
+all-MiniLM-L6-v2 (later model),sentence-transformers/all-MiniLM-L6-v2,,82.03,

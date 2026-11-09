@@ -1,0 +1,49 @@
+{
+  "annotator1 vs annotator2": {
+    "spearman": 0.9501,
+    "pearson": 0.9849,
+    "weighted_kappa_quadratic": 0.9523,
+    "mean_abs_diff": 0.4,
+    "within_1_point": 0.975
+  },
+  "annotator1 vs llm_judge": {
+    "spearman": 0.9473,
+    "pearson": 0.9813,
+    "weighted_kappa_quadratic": 0.9539,
+    "mean_abs_diff": 0.485,
+    "within_1_point": 0.95
+  },
+  "annotator1 vs sbert_minilm_cosine": {
+    "spearman": 0.8378
+  },
+  "annotator2 vs llm_judge": {
+    "spearman": 0.9673,
+    "pearson": 0.9952,
+    "weighted_kappa_quadratic": 0.9887,
+    "mean_abs_diff": 0.115,
+    "within_1_point": 1.0
+  },
+  "annotator2 vs sbert_minilm_cosine": {
+    "spearman": 0.8591
+  },
+  "llm_judge vs sbert_minilm_cosine": {
+    "spearman": 0.8878
+  },
+  "sbert vs human consensus (mean of A1,A2)": {
+    "spearman": 0.8508
+  },
+  "sbert_vs_raters": {
+    "cos_paper_nli_base": {
+      "annotator1": 58.89,
+      "annotator2": 57.08,
+      "llm_judge": 61.51,
+      "mean_of_two_humans": 58.59
+    },
+    "cos_minilm": {
+      "annotator1": 83.78,
+      "annotator2": 85.91,
+      "llm_judge": 88.78,
+      "mean_of_two_humans": 85.08
+    }
+  }
+}
